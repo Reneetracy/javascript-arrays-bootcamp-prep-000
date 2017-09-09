@@ -34,10 +34,12 @@ function destructivelyRemoveElementFromBeginningOfArray(array, element) {
 
 
 function removeElementFromBeginningOfArray(array, element) {
-  return array.slice(1)
+  return array.slice(0)
 }
 
 function removeElementFromBeginningOfArray(array, element) {
-  var array = array.slice(1)
+  var array = array.slice(0)
   return array
 }
+
+function destructivelyRemoveElementFromEndOfArray
